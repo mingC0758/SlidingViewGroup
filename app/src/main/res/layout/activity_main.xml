@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	tools:context="com.slidingviewgroupdemo.MainActivity">
+
+
+	<com.slidingviewgroup.SlidingViewGroup
+		app:scroll_duration="2000"
+		app:menu_width_radio="0.5"
+		android:layout_width="match_parent"
+		android:layout_height="150dp">
+
+		<TextView
+			android:gravity="center"
+			android:textSize="18sp"
+			android:text="主要内容"
+			android:background="@color/colorAccent"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+
+		<TextView
+			android:gravity="center"
+			android:textSize="18sp"
+			android:text="侧滑菜单"
+			android:background="@color/colorPrimary"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+	</com.slidingviewgroup.SlidingViewGroup>
+
+	<com.slidingviewgroup.SlidingViewGroup
+		android:layout_marginTop="15dp"
+		app:scroll_duration="500"
+		app:menu_width_radio="0.3"
+		android:layout_width="match_parent"
+		android:layout_height="150dp">
+
+		<TextView
+			android:gravity="center"
+			android:textSize="18sp"
+			android:text="主要内容"
+			android:background="@color/colorAccent"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			<TextView
+				android:gravity="center"
+				android:textSize="16sp"
+				android:id="@+id/tv_set_top"
+				android:text="置顶"
+				android:background="@color/colorPrimary"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="match_parent"/>
+
+			<TextView
+				android:layout_marginLeft="1px"
+				android:gravity="center"
+				android:textSize="16sp"
+				android:id="@+id/tv_del"
+				android:text="删除"
+				android:background="@color/colorPrimary"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="match_parent"/>
+		</LinearLayout>
+
+	</com.slidingviewgroup.SlidingViewGroup>
+</LinearLayout>
