@@ -1,5 +1,8 @@
 # 自定义控件之侧滑菜单SlidingViewGroup
 
+## 效果图
+![功能菜单效果图](http://ww1.sinaimg.cn/large/b1b3510fgy1fuky8jrvb3g20a20fl46b.gif)
+
 ## 功能介绍
 1. ViewGroup允许用户放入两个视图，一个作为内容视图，一个作为菜单视图。
 2. 滑动距离或速度大于阈值时滑出菜单
@@ -7,10 +10,10 @@
 
 ## 使用说明
 下载slidingviewgroup模块，导入到你的项目中：
-![这里写图片描述](https://img-blog.csdn.net/20180824005335538?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21pbmdDMDc1OA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![模块图](http://ww1.sinaimg.cn/large/b1b3510fgy1fuky9ufbzxj20d108k74z.jpg)
 
 添加模块依赖：
-![这里写图片描述](https://img-blog.csdn.net/20180824005342359?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21pbmdDMDc1OA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![模块依赖](http://ww1.sinaimg.cn/large/b1b3510fgy1fukya6hh99j20cl08fwf0.jpg)
 
 属性示例：
 ```
