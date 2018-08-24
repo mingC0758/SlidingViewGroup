@@ -10,9 +10,11 @@
 
 ## 使用说明
 下载slidingviewgroup模块，导入到你的项目中：
+
 ![模块图](http://ww1.sinaimg.cn/large/b1b3510fgy1fuky9ufbzxj20d108k74z.jpg)
 
 添加模块依赖：
+
 ![模块依赖](http://ww1.sinaimg.cn/large/b1b3510fgy1fukya6hh99j20cl08fwf0.jpg)
 
 属性示例：
